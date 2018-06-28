@@ -1,0 +1,98 @@
+2018-06-10 00:05:43.145 +02:00 [Information] Starting web host
+2018-06-10 00:05:43.549 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 00:05:43.551 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 00:05:43.602 +02:00 [Warning] No XML encryptor configured. Key {f8b935d6-2760-4123-b766-e9b5cb3b9a7c} may be persisted to storage in unencrypted form.
+2018-06-10 00:06:23.071 +02:00 [Error] An exception was thrown while attempting to evaluate a LINQ query parameter expression. To show additional information call EnableSensitiveDataLogging() when overriding DbContext.OnConfiguring.
+2018-06-10 00:06:23.131 +02:00 [Error]    at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.TryExtractParameter(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at System.Linq.Expressions.BinaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitUnary(UnaryExpression unaryExpression)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ColourCoded.Security.API.Controllers.AuthenticateController.Login(LoginRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\AuthenticateController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2018-06-10 00:10:17.642 +02:00 [Error] An exception was thrown while attempting to evaluate a LINQ query parameter expression. To show additional information call EnableSensitiveDataLogging() when overriding DbContext.OnConfiguring.
+2018-06-10 00:10:17.658 +02:00 [Error]    at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.TryExtractParameter(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at System.Linq.Expressions.BinaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitUnary(UnaryExpression unaryExpression)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ColourCoded.Security.API.Controllers.AuthenticateController.Login(LoginRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\AuthenticateController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2018-06-10 00:32:04.422 +02:00 [Information] Starting web host
+2018-06-10 00:32:04.793 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 00:32:04.795 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 00:32:04.843 +02:00 [Warning] No XML encryptor configured. Key {ef70c944-8161-445f-a8d3-e6ae13f1ac03} may be persisted to storage in unencrypted form.
+2018-06-10 00:51:52.695 +02:00 [Information] Starting web host
+2018-06-10 00:51:53.130 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 00:51:53.132 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 00:51:53.191 +02:00 [Warning] No XML encryptor configured. Key {a21ce399-d546-4d87-8186-08dfc9c68a04} may be persisted to storage in unencrypted form.
+2018-06-10 00:52:15.228 +02:00 [Information] Starting web host
+2018-06-10 00:52:16.450 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 00:52:16.452 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 00:52:16.546 +02:00 [Warning] No XML encryptor configured. Key {bc70b8c7-9ff7-483c-96db-d17fad85e2d7} may be persisted to storage in unencrypted form.
+2018-06-10 00:58:56.294 +02:00 [Information] Starting web host
+2018-06-10 00:58:56.640 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 00:58:56.643 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 00:58:56.689 +02:00 [Warning] No XML encryptor configured. Key {eb0772cc-ed30-4b99-8a8c-2627b3973624} may be persisted to storage in unencrypted form.
+2018-06-10 22:21:58.066 +02:00 [Information] Starting web host
+2018-06-10 22:21:58.469 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 22:21:58.472 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 22:21:58.540 +02:00 [Warning] No XML encryptor configured. Key {d030b157-77ca-467c-ad61-c8864934f160} may be persisted to storage in unencrypted form.
+2018-06-10 23:14:49.978 +02:00 [Information] Starting web host
+2018-06-10 23:14:50.422 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 23:14:50.425 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 23:14:50.483 +02:00 [Warning] No XML encryptor configured. Key {e08f6ee1-ab66-4bd1-8cc9-5e80b5825f82} may be persisted to storage in unencrypted form.
+2018-06-10 23:53:15.978 +02:00 [Information] Starting web host
+2018-06-10 23:53:16.610 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-10 23:53:16.617 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-10 23:53:16.696 +02:00 [Warning] No XML encryptor configured. Key {276ce874-5a31-40db-99c8-711b147c2ad2} may be persisted to storage in unencrypted form.

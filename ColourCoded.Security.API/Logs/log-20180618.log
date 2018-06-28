@@ -1,0 +1,8 @@
+2018-06-18 00:16:44.751 +02:00 [Information] Starting web host
+2018-06-18 00:16:45.201 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-18 00:16:45.204 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-18 00:16:45.259 +02:00 [Warning] No XML encryptor configured. Key {b662116c-5c8f-48ef-9373-29c432ea1c94} may be persisted to storage in unencrypted form.
+2018-06-18 01:33:07.924 +02:00 [Information] Starting web host
+2018-06-18 01:33:08.338 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-18 01:33:08.341 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-18 01:33:08.398 +02:00 [Warning] No XML encryptor configured. Key {083b587d-6ff8-4ebc-a5f3-d181b750eddf} may be persisted to storage in unencrypted form.

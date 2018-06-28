@@ -1,0 +1,16 @@
+2018-06-27 20:20:26.831 +02:00 [Information] Starting web host
+2018-06-27 20:20:27.233 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-27 20:20:27.235 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-27 20:20:27.301 +02:00 [Warning] No XML encryptor configured. Key {efb0d7ad-9f54-4c4d-896b-cfd065a849a0} may be persisted to storage in unencrypted form.
+2018-06-27 21:47:43.062 +02:00 [Information] Starting web host
+2018-06-27 21:47:43.503 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-27 21:47:43.506 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-27 21:47:43.564 +02:00 [Warning] No XML encryptor configured. Key {dd6c26bf-8a3b-400c-afdb-1a16bdaed459} may be persisted to storage in unencrypted form.
+2018-06-27 22:53:49.589 +02:00 [Information] Starting web host
+2018-06-27 22:53:49.983 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-27 22:53:49.986 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-27 22:53:50.035 +02:00 [Warning] No XML encryptor configured. Key {1e1854b4-7b52-48f0-8524-e46112372056} may be persisted to storage in unencrypted form.
+2018-06-27 23:57:20.674 +02:00 [Information] Starting web host
+2018-06-27 23:57:21.273 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-27 23:57:21.281 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-27 23:57:21.414 +02:00 [Warning] No XML encryptor configured. Key {527da6cd-d23e-4f50-9ed5-e0994238c80e} may be persisted to storage in unencrypted form.

@@ -1,0 +1,12 @@
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\obj\Debug\netcoreapp2.1\ColourCoded.Security.API.csprojAssemblyReference.cache
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\obj\Debug\netcoreapp2.1\ColourCoded.Security.API.csproj.CoreCompileInputs.cache
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\obj\Debug\netcoreapp2.1\ColourCoded.Security.API.AssemblyInfoInputs.cache
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\obj\Debug\netcoreapp2.1\ColourCoded.Security.API.AssemblyInfo.cs
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\bin\Debug\netcoreapp2.1\appsettings.json
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\bin\Debug\netcoreapp2.1\ColourCoded.Security.API.deps.json
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\bin\Debug\netcoreapp2.1\ColourCoded.Security.API.runtimeconfig.json
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\bin\Debug\netcoreapp2.1\ColourCoded.Security.API.runtimeconfig.dev.json
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\bin\Debug\netcoreapp2.1\ColourCoded.Security.API.dll
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\bin\Debug\netcoreapp2.1\ColourCoded.Security.API.pdb
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\obj\Debug\netcoreapp2.1\ColourCoded.Security.API.dll
+C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\obj\Debug\netcoreapp2.1\ColourCoded.Security.API.pdb

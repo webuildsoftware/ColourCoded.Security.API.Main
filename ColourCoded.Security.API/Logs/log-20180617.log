@@ -1,0 +1,530 @@
+2018-06-17 00:33:34.329 +02:00 [Information] Starting web host
+2018-06-17 00:33:36.720 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 00:33:36.724 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 00:33:36.846 +02:00 [Warning] No XML encryptor configured. Key {321fb7e8-8109-40d1-af45-966ec56489a2} may be persisted to storage in unencrypted form.
+2018-06-17 00:39:23.858 +02:00 [Information] Starting web host
+2018-06-17 00:39:24.819 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 00:39:24.824 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 00:39:24.979 +02:00 [Warning] No XML encryptor configured. Key {a62fce89-90b5-48b1-97c6-122ed9778e83} may be persisted to storage in unencrypted form.
+2018-06-17 00:39:46.738 +02:00 [Information] Starting web host
+2018-06-17 00:39:48.317 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 00:39:48.320 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 00:39:48.426 +02:00 [Warning] No XML encryptor configured. Key {990e37d4-5823-443c-8408-b2e79c65f9c9} may be persisted to storage in unencrypted form.
+2018-06-17 00:46:50.193 +02:00 [Error] Failed executing DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[ArtifactId], [r].[ArtifactName]
+FROM [Artifacts] AS [r]"
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ArtifactName'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+ClientConnectionId:a36f823e-ca93-4580-a13a-5d99b3366e98
+Error Number:207,State:1,Class:16
+2018-06-17 00:46:50.274 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"ColourCoded.Security.API.Data.SecurityContext"'."
+""System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ArtifactName'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+ClientConnectionId:a36f823e-ca93-4580-a13a-5d99b3366e98
+Error Number:207,State:1,Class:16"
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ArtifactName'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ColourCoded.Security.API.Controllers.PermissionsController.GetAll() in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+ClientConnectionId:a36f823e-ca93-4580-a13a-5d99b3366e98
+Error Number:207,State:1,Class:16
+2018-06-17 00:46:58.667 +02:00 [Error] Invalid column name 'ArtifactName'.
+2018-06-17 00:46:58.689 +02:00 [Error]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ColourCoded.Security.API.Controllers.PermissionsController.GetAll() in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2018-06-17 00:49:28.979 +02:00 [Error] Failed executing DbCommand ("9"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?', @p2='?' (Size = 4000), @p3='?', @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Artifacts] ([ArtifactName], [CreateDate], [CreateUser], [UpdateDate], [UpdateUser])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [ArtifactId]
+FROM [Artifacts]
+WHERE @@ROWCOUNT = 1 AND [ArtifactId] = scope_identity();"
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Artifacts'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a36f823e-ca93-4580-a13a-5d99b3366e98
+Error Number:515,State:2,Class:16
+2018-06-17 00:49:28.995 +02:00 [Error] An exception occurred in the database while saving changes for context type '"ColourCoded.Security.API.Data.SecurityContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Artifacts'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Artifacts'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at ColourCoded.Security.API.Controllers.PermissionsController.AddArtifact(AddArtifactRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 51
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+2018-06-17 00:49:30.978 +02:00 [Error] An error occurred while updating the entries. See the inner exception for details.
+2018-06-17 00:49:30.990 +02:00 [Error]    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at ColourCoded.Security.API.Controllers.PermissionsController.AddArtifact(AddArtifactRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 51
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2018-06-17 00:49:42.618 +02:00 [Error] Failed executing DbCommand ("2"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?', @p2='?' (Size = 4000), @p3='?', @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Artifacts] ([ArtifactName], [CreateDate], [CreateUser], [UpdateDate], [UpdateUser])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [ArtifactId]
+FROM [Artifacts]
+WHERE @@ROWCOUNT = 1 AND [ArtifactId] = scope_identity();"
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Artifacts'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a36f823e-ca93-4580-a13a-5d99b3366e98
+Error Number:515,State:2,Class:16
+2018-06-17 00:49:42.628 +02:00 [Error] An exception occurred in the database while saving changes for context type '"ColourCoded.Security.API.Data.SecurityContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Artifacts'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Artifacts'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at ColourCoded.Security.API.Controllers.PermissionsController.AddArtifact(AddArtifactRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 51
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2018-06-17 00:49:44.847 +02:00 [Error] An error occurred while updating the entries. See the inner exception for details.
+2018-06-17 00:49:44.859 +02:00 [Error]    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at ColourCoded.Security.API.Controllers.PermissionsController.AddArtifact(AddArtifactRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 51
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2018-06-17 00:54:37.652 +02:00 [Error] Failed executing DbCommand ("4"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Permissions] ([ArtifactId], [CreateDate], [CreateUser], [RoleId])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [PermissionId]
+FROM [Permissions]
+WHERE @@ROWCOUNT = 1 AND [PermissionId] = scope_identity();"
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Permissions'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:67e75b31-acea-49bc-9003-b5c2c6ea2efe
+Error Number:515,State:2,Class:16
+2018-06-17 00:54:37.673 +02:00 [Error] An exception occurred in the database while saving changes for context type '"ColourCoded.Security.API.Data.SecurityContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Permissions'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'CreateUser', table 'ColourCoded_Security_OLTP.dbo.Permissions'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at ColourCoded.Security.API.Controllers.PermissionsController.AddPermission(AddPermissionRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 144
+2018-06-17 00:57:36.087 +02:00 [Error] An error occurred while updating the entries. See the inner exception for details.
+2018-06-17 00:57:36.100 +02:00 [Error]    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at ColourCoded.Security.API.Controllers.PermissionsController.AddPermission(AddPermissionRequestModel requestModel) in C:\SourceControl\ColourCoded.Security.API\ColourCoded.Security.API\Controllers\PermissionsController.cs:line 144
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2018-06-17 01:03:15.130 +02:00 [Information] Starting web host
+2018-06-17 01:03:15.585 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 01:03:15.589 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 01:03:15.650 +02:00 [Warning] No XML encryptor configured. Key {92943da8-4eae-4eed-9195-7a4f32f00a06} may be persisted to storage in unencrypted form.
+2018-06-17 01:35:18.338 +02:00 [Information] Starting web host
+2018-06-17 01:35:18.835 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 01:35:18.838 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 01:35:18.898 +02:00 [Warning] No XML encryptor configured. Key {cc328ad3-5545-4386-877e-2ebd481ae3e1} may be persisted to storage in unencrypted form.
+2018-06-17 02:04:41.778 +02:00 [Information] Starting web host
+2018-06-17 02:04:44.112 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:04:44.119 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:04:44.352 +02:00 [Warning] No XML encryptor configured. Key {cdd3999c-8abb-45ca-9c91-1c9e91298924} may be persisted to storage in unencrypted form.
+2018-06-17 02:08:34.599 +02:00 [Information] Starting web host
+2018-06-17 02:08:36.018 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:08:36.026 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:08:36.125 +02:00 [Warning] No XML encryptor configured. Key {c12bd56e-b839-4264-b3af-6caf879c91c1} may be persisted to storage in unencrypted form.
+2018-06-17 02:12:19.919 +02:00 [Information] Starting web host
+2018-06-17 02:12:21.274 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:12:21.278 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:12:21.379 +02:00 [Warning] No XML encryptor configured. Key {a0518379-647b-4b7a-b416-1ce5722cac97} may be persisted to storage in unencrypted form.
+2018-06-17 02:17:54.635 +02:00 [Information] Starting web host
+2018-06-17 02:17:56.100 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:17:56.104 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:17:56.195 +02:00 [Warning] No XML encryptor configured. Key {c0e18d0a-34ef-4931-936a-06ee7a1ec88d} may be persisted to storage in unencrypted form.
+2018-06-17 02:21:47.103 +02:00 [Information] Starting web host
+2018-06-17 02:21:48.222 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:21:48.224 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:21:48.312 +02:00 [Warning] No XML encryptor configured. Key {a6b1e5d5-a536-4ca5-922f-bf118ed30ad2} may be persisted to storage in unencrypted form.
+2018-06-17 02:23:53.491 +02:00 [Information] Starting web host
+2018-06-17 02:23:55.061 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:23:55.069 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:23:55.248 +02:00 [Warning] No XML encryptor configured. Key {b0612de6-8fc5-4ed0-8eea-8fd6775db086} may be persisted to storage in unencrypted form.
+2018-06-17 02:27:57.824 +02:00 [Information] Starting web host
+2018-06-17 02:27:58.380 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:27:58.383 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:27:58.444 +02:00 [Warning] No XML encryptor configured. Key {4a27b1b0-0308-47fe-bc31-ba1af0d08bc8} may be persisted to storage in unencrypted form.
+2018-06-17 02:29:14.200 +02:00 [Information] Starting web host
+2018-06-17 02:29:15.344 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:29:15.350 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:29:15.432 +02:00 [Warning] No XML encryptor configured. Key {ae264af0-e947-49ac-93b2-73398b07743b} may be persisted to storage in unencrypted form.
+2018-06-17 02:37:53.522 +02:00 [Information] Starting web host
+2018-06-17 02:37:55.768 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:37:55.771 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:37:55.867 +02:00 [Warning] No XML encryptor configured. Key {a676c65f-6422-4dc1-a2c4-0d11705b53d5} may be persisted to storage in unencrypted form.
+2018-06-17 02:39:33.255 +02:00 [Information] Starting web host
+2018-06-17 02:39:34.676 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:39:34.679 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:39:34.766 +02:00 [Warning] No XML encryptor configured. Key {c2bcdb9d-4483-4444-bd48-f104e9f025ae} may be persisted to storage in unencrypted form.
+2018-06-17 02:43:06.256 +02:00 [Information] Starting web host
+2018-06-17 02:43:06.850 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:43:06.853 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:43:06.937 +02:00 [Warning] No XML encryptor configured. Key {b765f72a-8a67-4581-80bb-d3bef837d54e} may be persisted to storage in unencrypted form.
+2018-06-17 02:43:24.857 +02:00 [Information] Starting web host
+2018-06-17 02:43:26.314 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:43:26.318 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:43:26.431 +02:00 [Warning] No XML encryptor configured. Key {2479fccd-9964-4066-9aa7-087bef4a0457} may be persisted to storage in unencrypted form.
+2018-06-17 02:44:55.403 +02:00 [Information] Starting web host
+2018-06-17 02:44:56.655 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:44:56.659 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:44:56.747 +02:00 [Warning] No XML encryptor configured. Key {fff3a497-cd43-487a-b3f1-c4786d7508c0} may be persisted to storage in unencrypted form.
+2018-06-17 02:51:23.928 +02:00 [Information] Starting web host
+2018-06-17 02:51:24.458 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:51:24.461 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:51:24.520 +02:00 [Warning] No XML encryptor configured. Key {c5584774-0b81-4dd7-aa8c-e44b7579eefd} may be persisted to storage in unencrypted form.
+2018-06-17 02:51:53.752 +02:00 [Information] Starting web host
+2018-06-17 02:51:54.916 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:51:54.919 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:51:55.012 +02:00 [Warning] No XML encryptor configured. Key {590cecab-1a0b-42ff-9e61-f8fd073592dd} may be persisted to storage in unencrypted form.
+2018-06-17 02:55:16.844 +02:00 [Information] Starting web host
+2018-06-17 02:55:18.080 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:55:18.085 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:55:18.166 +02:00 [Warning] No XML encryptor configured. Key {e53b05b3-9e89-4e4e-84cc-61ca8f389f28} may be persisted to storage in unencrypted form.
+2018-06-17 02:58:03.588 +02:00 [Information] Starting web host
+2018-06-17 02:58:04.137 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 02:58:04.140 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 02:58:04.206 +02:00 [Warning] No XML encryptor configured. Key {3e9617ee-4cbf-4ab4-b24d-1f2060796d4b} may be persisted to storage in unencrypted form.
+2018-06-17 03:08:59.350 +02:00 [Information] Starting web host
+2018-06-17 03:08:59.894 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 03:08:59.897 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 03:08:59.959 +02:00 [Warning] No XML encryptor configured. Key {3570bcc1-ae98-4790-ab0b-cfd76002903a} may be persisted to storage in unencrypted form.
+2018-06-17 03:42:53.432 +02:00 [Information] Starting web host
+2018-06-17 03:43:14.364 +02:00 [Information] Starting web host
+2018-06-17 03:43:15.635 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 03:43:15.638 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 03:43:15.711 +02:00 [Warning] No XML encryptor configured. Key {8091491e-e7e6-484d-9d31-902f3d75147d} may be persisted to storage in unencrypted form.
+2018-06-17 03:51:26.697 +02:00 [Information] Starting web host
+2018-06-17 03:51:27.135 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 03:51:27.138 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 03:51:27.202 +02:00 [Warning] No XML encryptor configured. Key {1503ddfc-0f3c-4f8f-a0bd-be3a0ad749a9} may be persisted to storage in unencrypted form.
+2018-06-17 03:52:20.885 +02:00 [Information] Starting web host
+2018-06-17 03:52:23.807 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 03:52:23.813 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 03:52:23.976 +02:00 [Warning] No XML encryptor configured. Key {20de0387-1605-432b-8d30-c7d32c82c1ee} may be persisted to storage in unencrypted form.
+2018-06-17 03:57:10.557 +02:00 [Information] Starting web host
+2018-06-17 03:57:11.022 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 03:57:11.026 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 03:57:11.089 +02:00 [Warning] No XML encryptor configured. Key {6da278f4-4d91-4580-bfd3-9d369eb6c1e5} may be persisted to storage in unencrypted form.
+2018-06-17 04:01:48.649 +02:00 [Information] Starting web host
+2018-06-17 04:01:49.886 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:01:49.889 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:01:49.969 +02:00 [Warning] No XML encryptor configured. Key {63ce590e-1deb-4e7a-a5fb-785860308cec} may be persisted to storage in unencrypted form.
+2018-06-17 04:08:46.132 +02:00 [Information] Starting web host
+2018-06-17 04:08:46.707 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:08:46.724 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:08:46.804 +02:00 [Warning] No XML encryptor configured. Key {ae751c3b-d69b-434a-bbe5-017737f2e73f} may be persisted to storage in unencrypted form.
+2018-06-17 04:09:39.139 +02:00 [Information] Starting web host
+2018-06-17 04:09:40.944 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:09:40.950 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:09:41.090 +02:00 [Warning] No XML encryptor configured. Key {f0efe6dd-f041-4ab6-bde9-053636f49e98} may be persisted to storage in unencrypted form.
+2018-06-17 04:14:59.428 +02:00 [Information] Starting web host
+2018-06-17 04:14:59.972 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:14:59.975 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:15:00.110 +02:00 [Warning] No XML encryptor configured. Key {52ea8bc2-770f-4351-b712-f56d4f9b21ff} may be persisted to storage in unencrypted form.
+2018-06-17 04:15:21.124 +02:00 [Information] Starting web host
+2018-06-17 04:15:22.680 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:15:22.699 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:15:22.909 +02:00 [Warning] No XML encryptor configured. Key {fd8f0d7e-a8b3-4fd8-ad9b-787f1aed835e} may be persisted to storage in unencrypted form.
+2018-06-17 04:22:02.513 +02:00 [Information] Starting web host
+2018-06-17 04:22:03.078 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:22:03.081 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:22:03.149 +02:00 [Warning] No XML encryptor configured. Key {4a859291-097b-4818-b315-d7aec6d55647} may be persisted to storage in unencrypted form.
+2018-06-17 04:22:22.233 +02:00 [Information] Starting web host
+2018-06-17 04:22:24.328 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:22:24.335 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:22:24.474 +02:00 [Warning] No XML encryptor configured. Key {b5a8e8d2-5ff4-437f-aeec-f801fd9cc132} may be persisted to storage in unencrypted form.
+2018-06-17 04:26:47.292 +02:00 [Information] Starting web host
+2018-06-17 04:26:47.879 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:26:47.882 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:26:47.944 +02:00 [Warning] No XML encryptor configured. Key {5a45c586-62eb-4144-9969-8c9bddca60ab} may be persisted to storage in unencrypted form.
+2018-06-17 04:27:05.192 +02:00 [Information] Starting web host
+2018-06-17 04:27:06.768 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:27:06.775 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:27:06.856 +02:00 [Warning] No XML encryptor configured. Key {f028ea27-1622-4a6e-ac02-7f7390c668db} may be persisted to storage in unencrypted form.
+2018-06-17 04:28:11.653 +02:00 [Information] Starting web host
+2018-06-17 04:28:12.044 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:28:12.047 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:28:12.102 +02:00 [Warning] No XML encryptor configured. Key {d3822136-ec30-4c53-8d8f-121cc73524ef} may be persisted to storage in unencrypted form.
+2018-06-17 04:31:25.539 +02:00 [Information] Starting web host
+2018-06-17 04:31:25.954 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:31:25.957 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:31:26.021 +02:00 [Warning] No XML encryptor configured. Key {b40aaf41-fb96-4fb0-a122-765e24ce6be5} may be persisted to storage in unencrypted form.
+2018-06-17 04:32:03.998 +02:00 [Information] Starting web host
+2018-06-17 04:32:04.427 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:32:04.430 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:32:04.499 +02:00 [Warning] No XML encryptor configured. Key {44854bca-0fd6-4489-b8e2-aa020a7207de} may be persisted to storage in unencrypted form.
+2018-06-17 04:32:38.116 +02:00 [Information] Starting web host
+2018-06-17 04:32:39.816 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:32:39.820 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:32:40.103 +02:00 [Warning] No XML encryptor configured. Key {85df2e40-6867-4dc4-8387-fbd5fe784eaa} may be persisted to storage in unencrypted form.
+2018-06-17 04:34:54.092 +02:00 [Information] Starting web host
+2018-06-17 04:34:54.510 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:34:54.512 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:34:54.572 +02:00 [Warning] No XML encryptor configured. Key {4cf1df2b-15a7-4227-8d9b-c34df7eb1f9d} may be persisted to storage in unencrypted form.
+2018-06-17 04:41:14.330 +02:00 [Information] Starting web host
+2018-06-17 04:41:14.751 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 04:41:14.754 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 04:41:14.819 +02:00 [Warning] No XML encryptor configured. Key {39389f20-8120-4c7b-850a-7c368bbd0dff} may be persisted to storage in unencrypted form.
+2018-06-17 21:35:55.685 +02:00 [Information] Starting web host
+2018-06-17 21:35:56.166 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 21:35:56.168 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 21:35:56.230 +02:00 [Warning] No XML encryptor configured. Key {207d0707-283d-47d1-af9d-8e533bc03145} may be persisted to storage in unencrypted form.
+2018-06-17 22:19:00.464 +02:00 [Information] Starting web host
+2018-06-17 22:19:00.893 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 22:19:00.895 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 22:19:00.953 +02:00 [Warning] No XML encryptor configured. Key {e4595472-a87b-49ab-bfea-69375652df9f} may be persisted to storage in unencrypted form.
+2018-06-17 23:45:55.657 +02:00 [Information] Starting web host
+2018-06-17 23:45:56.100 +02:00 [Warning] Using an in-memory repository. Keys will not be persisted to storage.
+2018-06-17 23:45:56.103 +02:00 [Warning] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2018-06-17 23:45:56.164 +02:00 [Warning] No XML encryptor configured. Key {c1f5b32c-c0f5-463a-b581-a37e4a16d435} may be persisted to storage in unencrypted form.
