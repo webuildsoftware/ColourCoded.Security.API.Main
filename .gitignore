@@ -1,3 +1,11 @@
 
 *.log
 *.dll
+.vs/ColourCoded.Security.API/v15/.suo
+ColourCoded.Security.API.Tests/bin/*
+
+ColourCoded.Security.API.Tests/obj/Debug/netcoreapp2.1/ColourCoded.Security.API.Tests.dll
+ColourCoded.Security.API.Tests/bin/Debug/netcoreapp2.1/ColourCoded.Security.API.dll
+ColourCoded.Security.API.Tests/bin/Debug/netcoreapp2.1/ColourCoded.Security.API.pdb
+ColourCoded.Security.API.Tests/bin/Debug/netcoreapp2.1/ColourCoded.Security.API.Tests.dll
+ColourCoded.Security.API.Tests/bin/Debug/netcoreapp2.1/ColourCoded.Security.API.Tests.pdb
